@@ -1,0 +1,31 @@
+@import './base.scss';
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  min-height: inherit;
+  padding: 0 20px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-sm {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 560px) {
+  .icon-sm {
+    width: 18px;
+    height: 18px;
+  }
+}
